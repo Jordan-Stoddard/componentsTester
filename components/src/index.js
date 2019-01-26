@@ -7,7 +7,14 @@ import ApprovalCard from "./ApprovalCard.jsx";
 const App = () => {
   return (
     <div className="ui container comments">
-    
+
+    <ApprovalCard>
+      <div>
+        <h4>Warning!</h4>
+      Are you sure you want to this?
+      </div>
+    </ApprovalCard>
+
       <ApprovalCard>
         <CommentDetail
           name={faker.name.firstName()}
